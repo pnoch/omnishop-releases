@@ -11,8 +11,9 @@ The page is in `docs/` and is served by GitHub Pages at
 domain is live).
 
 - **Custom domain:** `docs/CNAME` contains
-  `omnishop.siamcreations.app`. DNS must point the subdomain at
-  `pnoch.github.io` (CNAME), replacing any existing record.
+  `omnishop.siamcreations.app`. DNS uses GitHub Pages **A/AAAA records**, not a
+  CNAME: `web.omnishop.siamcreations.app` is a child CNAME to Railway, and a
+  parent CNAME at `omnishop` would shadow it in some resolvers.
 - **Android download:** the page reads the rolling `android-latest` release in
   `pnoch/omnishop` through the GitHub API and links the first `.apk` asset.
   Publish a new APK by replacing that release's asset (new tag, or delete and
