@@ -6,12 +6,12 @@ Landing and download page for OmniShop. The application source lives in
 ## Website
 
 The page is in `docs/` and is served by GitHub Pages at
-<https://omnishop-releases.siamcreations.app/> (custom domain) and
+<https://omnishop.siamcreations.app/> (custom domain) and
 <https://pnoch.github.io/omnishop-releases/> (project URL until the custom
 domain is live).
 
 - **Custom domain:** `docs/CNAME` contains
-  `omnishop-releases.siamcreations.app`. DNS must point the subdomain at
+  `omnishop.siamcreations.app`. DNS must point the subdomain at
   `pnoch.github.io` (CNAME), replacing any existing record.
 - **Android download:** the page reads the rolling `android-latest` release in
   `pnoch/omnishop` through the GitHub API and links the first `.apk` asset.
@@ -19,9 +19,9 @@ domain is live).
   re-upload). The asset should be named `OmniShop-<version>.apk` so the page can
   show the version.
 - **Desktop download:** links to `pnoch/omnishop/releases/latest`.
-- **Web app:** links to <https://omnishop.siamcreations.app>.
+- **Web app:** links to <https://web.omnishop.siamcreations.app>.
 - **App links:** the Android/iOS association files are served by the app at
-  `omnishop.siamcreations.app`, not by this release page.
+  `web.omnishop.siamcreations.app`, not by this release page.
 
 ## Updating screenshots
 
