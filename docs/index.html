@@ -67,7 +67,7 @@
           >
         </div>
         <p class="muted" id="android-version">
-          Android installs from an APK and updates in place.
+          Android installs from an APK; allow installs from this source the first time.
         </p>
       </section>
 
@@ -259,7 +259,7 @@
             : "";
           document.getElementById("android-version").textContent =
             `${version ? `Version ${version[1]}` : "Latest build"}${size}. ` +
-            "Android installs from an APK and updates in place.";
+            "Android installs from an APK; allow installs from this source the first time.";
         })
         .catch(() => {
           // The release-page links still work without the API.
