@@ -26,7 +26,7 @@ domain is live).
 
 ## Updating screenshots
 
-Replace `docs/screenshots/desktop-compare.png` and
+Replace `docs/screenshots/desktop-watchlist.png` and
 `docs/screenshots/android-product.png`. Keep the desktop image wide
 (1440×900-ish) and the phone image portrait (390×844-ish).
 
